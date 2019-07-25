@@ -64,7 +64,29 @@ header p{
     border-top:solid 1px var(--accent);
     border-bottom:solid 1px var(--accent);
 }
+@media(max-width:103px){
+    .card-container{
+       
+        flex-direction: column;
+        align-items: center;
 
+    }
+    footer{
+        flex:1 0 auto;
+    }
+}
+
+@media(max-width:500px){
+.card {
+    width:80%;
+
+}
+.card img{
+    width:80px;
+    height: initial;
+}
+
+}
 footer{
     margin-top: 50px;
     background-color: var(--primary);
